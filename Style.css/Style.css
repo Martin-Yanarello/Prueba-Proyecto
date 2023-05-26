@@ -1,172 +1,171 @@
 /*Desktop*/
-@media only screen and (min-width: 720px){
-    body{
-        background-image: url(https://i.pinimg.com/originals/a6/e8/ee/a6e8ee414952756792f1abaf89e4a5e8.jpg);
-        margin: auto;
-        margin-left: 10% !important;
-        margin-right: 10% !important;
-    }
-    .linkUno{
-        color: #ffffff;
-        text-decoration: none;
-    }
-    .quienesSomos{
-        text-align: center;
-        color: #ffffff;
-    }
-    .tituloProductos{
-        background-color: #000000;
-        color: #ffffff;
-        text-align: center;
-        border: 3px solid rgb(58, 58, 58);
-    }
-    .productosUno{
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        column-gap: 1%;
-        margin: 0.22%;
-    }
-    .productosDos{
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        column-gap: 1%;
-        margin: 0.22%;
-    }
-    .linkProductos{
-        text-align: center;
-        border: 2px solid rgb(0, 0, 0);
-        background-color: rgb(255, 255, 255);
-    }
-    .liUno{
-        display:flex;
-    }
-    .liDos{
-        display: flex;
-        margin-top: 1%;
-    }
-    .imagenProductos{
-        align-self: center;
-        width: 100%;
-        height: 100%;
-    }
-    footer {
-        color: #ffffff;
-    }
-    .redesFooter{
-            margin-left:-2%;
-            list-style: none;
-            grid-column: 1/2;
-            text-align:start;
-            margin-left: 1%;
-    }
-    .linkFooter{
-        color: #ffffff;
-    }
-    .empresaCopy{
-        text-align: center;
-        font-size: small;
-        margin-top: 12%;
-        grid-column: 3/4;
-    }
-    .footer-grid{
-        background-color: #000000;
-        margin-top: 1%;
-        display: grid;
-        grid-template-columns:1fr 2fr 1fr;
-        grid-template-rows: 90px 25px;
-        border: solid rgb(58, 58, 58);
-    }
-    .empresaCopyR{
-        color: #ffffff;
-        grid-column: 2/3;
-        grid-row: 2;
-        margin-top: -0.1%;
-        text-align: center;
-    }
+body {
+  background-image: url(https://i.pinimg.com/originals/a6/e8/ee/a6e8ee414952756792f1abaf89e4a5e8.jpg);
+  margin: auto;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
 }
+
+.navbar {
+  border: 3px solid rgb(58, 58, 58);
+}
+
+/* main */
+.quienesSomos {
+  text-align: center;
+  color: #ffffff;
+}
+
+.tituloProductos {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  border: 3px solid rgb(58, 58, 58);
+}
+
+.productosUno, .productosDos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 1%;
+  margin: 0.22%;
+}
+
+.linkProductos {
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.imagenProductos {
+  align-self: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Display-Cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+}
+
+/* Footer */
+footer {
+  color: #ffffff;
+}
+
+.redesFooter {
+  margin-left: -2%;
+  list-style: none;
+  grid-column: 1/2;
+  text-align: start;
+  margin-left: 1%;
+}
+
+.linkFooter {
+  color: #ffffff;
+}
+
+.footer-grid {
+  background-color: #000000;
+  margin-top: 1%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 90px 25px;
+  border: 3px solid rgb(58, 58, 58);
+}
+
+.empresaCopy {
+  text-align: center;
+  font-size: small;
+  margin-top: 12%;
+  grid-column: 3/4;
+}
+
+.empresaCopyR {
+  grid-column: 2/3;
+  grid-row: 2;
+  margin-top: -0.1%;
+  text-align: center;
+}
+
 /*Mobile*/
-@media only screen and (Max-width: 719px){
-    body{
-        background-image: url(https://i.pinimg.com/originals/a6/e8/ee/a6e8ee414952756792f1abaf89e4a5e8.jpg);
-        margin: auto;
-        margin-left: 10% !important;
-        margin-right: 10% !important;
-        margin-bottom: -100%;
-    }
-    .linkUno{
-        color: #ffffff;
-        text-decoration: none;
-    }
-    .quienesSomos{
-        text-align: center;
-        color: #ffffff;
-    }
-    .tituloProductos{
-        background-color: #000000;
-        color: #ffffff;
-        text-align: center;
-        border: 3px solid rgb(58, 58, 58);
-    }
-    .gridProductos{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .productosUno{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    .productosDos{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        grid-column: 2;
-    }
-    .linkProductos{
-        text-align: center;
-        border: 2px solid rgb(0, 0, 0);
-        background-color: rgb(255, 255, 255);
-    }
-    .liUno{
-        display:flex;
-    }
-    .liDos{
-        display: flex;
-        margin-top: 1%;
-    }
-    .imagenProductos{
-        align-self: center;
-        width: 100%;
-        height: 100%;
-    }
-    footer {
-        color: #ffffff;
-    }
-    .redesFooter{
-        list-style: none;
-        text-align: start;
-    }
-    .linkFooter{
-        color: #ffffff;
-        text-align: start;
-    }
-    .empresaCopy{
-        justify-content: right;
-        font-size: small;
-    }
-    .footer-grid{
-        background-color: #000000;
-        margin-top: 1%;
-        display: flex;
-        grid-template-columns:1fr 2fr 1fr;
-        grid-template-rows: 90px 25px;
-        border: solid rgb(58, 58, 58);
-    }
-    .empresaCopyR{
-        font-size: small;
-        color: #ffffff;
-        margin-top: 5%;
-        justify-content: center;
-        text-align:center;
-    }
+@media only screen and (Max-width: 719px) {
+  body {
+    background-image: url(https://i.pinimg.com/originals/a6/e8/ee/a6e8ee414952756792f1abaf89e4a5e8.jpg);
+    margin: auto;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    margin-bottom: -100%;
+  }
+  /* main */
+  .quienesSomos {
+    text-align: center;
+    color: #ffffff;
+  }
+  .tituloProductos {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    border: 3px solid rgb(58, 58, 58);
+  }
+  .gridProductos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .productosUno, .productosDos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .productosDos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .linkProductos {
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+  .imagenProductos {
+    align-self: center;
+    width: 100%;
+    height: 100%;
+  }
+  /* Footer */
+  footer {
+    color: #ffffff;
+  }
+  .redesFooter {
+    list-style: none;
+    text-align: start;
+  }
+  .linkFooter {
+    color: #ffffff;
+    text-align: start;
+  }
+  .footer-grid {
+    background-color: #000000;
+    margin-top: 1%;
+    display: flex;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 90px 25px;
+    border: 3px solid rgb(58, 58, 58);
+  }
+  .empresaCopy {
+    justify-content: right;
+    font-size: small;
+  }
+  .empresaCopyR {
+    font-size: small;
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+  }
 }
+
+/*# sourceMappingURL=Style.css.map */

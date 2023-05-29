@@ -58,6 +58,10 @@ body {
 }
 
 /* Carrito */
+.Titulo-Carrito {
+  text-align: left;
+}
+
 .Formas-De-Pago {
   display: grid;
   grid-template-columns: repeat(3, 33.33%);
@@ -101,6 +105,22 @@ body {
 .Carrito-Span3 {
   grid-area: Texto3;
   background-color: #2579f8;
+}
+
+.Azul {
+  color: #ffffff;
+  background-color: rgba(0, 102, 255, 0.568627451);
+  padding: 1%;
+}
+
+.Blanco {
+  background-color: #ffffff;
+  padding: 1%;
+  height: 50px;
+}
+
+.Texto-Direccion {
+  color: #ffffff;
 }
 
 /* Footer */

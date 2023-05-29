@@ -60,6 +60,7 @@
 
     .Titulo-Carrito{
         @extend .tituloProductos;
+        text-align: left;
     }
     .Formas-De-Pago{
         display: grid;
@@ -104,6 +105,20 @@
         @extend .Carrito-Span1;
         grid-area: Texto3;
         background-color: #2579f8
+    }
+    .Azul{
+        color: #ffffff;
+        background-color: #0066ff91;
+        padding: 1%;
+    }
+    .Blanco{
+        background-color: #ffffff;
+        padding: 1%;
+        height:50px;
+    }
+    .Texto-Direccion{
+        color: #ffffff;
+
     }
 /* Footer */
 

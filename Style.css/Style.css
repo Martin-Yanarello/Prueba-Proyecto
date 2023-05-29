@@ -16,7 +16,7 @@ body {
   color: #ffffff;
 }
 
-.tituloProductos {
+.tituloProductos, .Titulo-Carrito {
   background-color: #000000;
   color: #ffffff;
   text-align: center;
@@ -45,11 +45,62 @@ body {
 .Display-Cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .card {
   margin: 10px;
+}
+
+.card:hover {
+  border: 10px solid rgb(0, 0, 0);
+  transition: 200ms;
+}
+
+/* Carrito */
+.Formas-De-Pago {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: 70% 30%;
+  height: 7rem;
+  text-align: center;
+  align-self: center;
+  grid-template-areas: "Item-1 Item-2 Item-3" "Texto1 Texto2 Texto3";
+  margin: 0.5%;
+  border: 3px solid rgb(58, 58, 58);
+}
+
+.Lista-Carrito1, .Lista-Carrito3, .Lista-Carrito2 {
+  color: #ffffff;
+  list-style-type: none;
+  grid-area: Item-1;
+  background-color: #1f78fd;
+}
+
+.Lista-Carrito2 {
+  grid-area: Item-2;
+  background-color: #0066ff;
+}
+
+.Lista-Carrito3 {
+  grid-area: Item-3;
+  background-color: #0066ff;
+}
+
+.Carrito-Span1, .Carrito-Span3, .Carrito-Span2 {
+  color: #ffffff;
+  grid-area: Texto1;
+  background-color: #418dff;
+}
+
+.Carrito-Span2 {
+  grid-area: Texto2;
+  background-color: #2579f8;
+}
+
+.Carrito-Span3 {
+  grid-area: Texto3;
+  background-color: #2579f8;
 }
 
 /* Footer */
@@ -106,7 +157,7 @@ footer {
     text-align: center;
     color: #ffffff;
   }
-  .tituloProductos {
+  .tituloProductos, .Titulo-Carrito {
     background-color: #000000;
     color: #ffffff;
     text-align: center;

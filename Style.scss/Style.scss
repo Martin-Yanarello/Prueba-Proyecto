@@ -120,6 +120,48 @@
         color: #ffffff;
 
     }
+
+    /* Contactanos */
+    .Contactanos-Texto{
+        color: #ffffff;
+    }
+    .Grid-Contacto{
+        display: grid;
+        grid-template-columns: repeat(3 33.33%);
+        grid-template-rows: repeat(3 33.33%);
+        grid-template-areas: 
+        'Item-1 Item-2 Item-3'
+        'Item-4 Item-5 Item-5'
+        'Item-6 Item-6 Item-6';
+
+    }
+    .Input1{
+        grid-area: Item-1;
+    }
+    .Input2{
+        grid-area: Item-2;
+    }
+    .Input3{
+        grid-area: Item-3;
+    }
+    .Input4{
+        grid-area: Item-4;
+    }
+    .Input5{
+        grid-area: Item-5;
+    }
+    .Input6{
+        grid-area: Item-6;
+    }
+    .Comentarios{
+        width: 100%;
+    }
+    .Contactos-links{
+        background-color: #000000;
+        color: #ffffff;
+        border: 3px solid rgb(58, 58, 58);
+    }
+
 /* Footer */
 
     footer {

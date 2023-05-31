@@ -1,3 +1,21 @@
+/* Mixins */
+@mixin Flex-Center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin Link-Style{
+    color: #ffff;
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+@mixin Borde{
+    border: 3px solid rgb(58, 58, 58);
+}
+
 /*Desktop*/
 
     body{
@@ -7,7 +25,7 @@
         margin-right: 10% !important;
     }
     .navbar{
-        border: 3px solid rgb(58, 58, 58);
+        @include Borde;
     }
 
 /* main */
@@ -20,7 +38,7 @@
         background-color: #000000;
         color: #ffffff;
         text-align: center;
-        border: 3px solid rgb(58, 58, 58);
+        @include Borde
     }
     .productosUno{
         display: grid;
@@ -73,7 +91,7 @@
         'Item-1 Item-2 Item-3'
         'Texto1 Texto2 Texto3';
         margin: 0.5%;
-        border: 3px solid rgb(58, 58, 58);
+        @include Borde
     }
     .Lista-Carrito1{
         color: #ffffff;

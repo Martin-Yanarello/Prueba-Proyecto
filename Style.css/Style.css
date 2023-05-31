@@ -170,6 +170,14 @@ body {
   border: 3px solid rgb(58, 58, 58);
 }
 
+.Link-Contacto {
+  color: white;
+  text-decoration: none;
+}
+.Link-Contacto:hover {
+  text-decoration: underline;
+}
+
 /* Contactanos */
 .Texto-Descripcion {
   color: #ffffff;

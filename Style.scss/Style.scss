@@ -179,7 +179,9 @@
         color: #ffffff;
         border: 3px solid rgb(58, 58, 58);
     }
-
+    .Link-Contacto{
+        @include Link-Style;
+    }
     /* Contactanos */
 
     .Texto-Descripcion{

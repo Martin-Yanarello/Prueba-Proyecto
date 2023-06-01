@@ -11,6 +11,11 @@ body {
   border: 3px solid rgb(58, 58, 58);
 }
 
+/* header */
+.Img-Logo {
+  width: 12%;
+}
+
 /* main */
 .quienesSomos {
   text-align: center;
@@ -131,8 +136,6 @@ body {
 
 .Grid-Contacto {
   display: grid;
-  grid-template-columns: repeat(3 33.33%);
-  grid-template-rows: repeat(3 33.33%);
   grid-template-areas: "Item-1 Item-2 Item-3" "Item-4 Item-5 Item-5" "Item-6 Item-6 Item-6";
 }
 
@@ -178,7 +181,7 @@ body {
   text-decoration: underline;
 }
 
-/* Contactanos */
+/* Sobre Nosotros */
 .Texto-Descripcion {
   color: #ffffff;
 }
@@ -250,6 +253,10 @@ footer {
     margin-right: 10% !important;
     margin-bottom: -100%;
   }
+  /* header */
+  .Img-Logo {
+    width: 20%;
+  }
   /* main */
   .quienesSomos {
     text-align: center;
@@ -284,6 +291,44 @@ footer {
     align-self: center;
     width: 100%;
     height: 100%;
+  }
+  /* Carrito */
+  .Carrito-Span1, .Carrito-Span2, .Carrito-Span3 {
+    color: #ffffff;
+    grid-area: Texto1;
+    background-color: #418dff;
+    font-size: small;
+  }
+  .Carrito-Span2 {
+    grid-area: Texto2;
+    background-color: #2579f8;
+  }
+  .Carrito-Span3 {
+    grid-area: Texto3;
+    background-color: #2579f8;
+  }
+  /* Contactanos */
+  .Grid-Contacto {
+    display: grid;
+    grid-template-areas: "Item-1 Item-2" "Item-3 Item-4" "Item-5 Item-5" "Item-6 Item-6";
+  }
+  .Input1 {
+    grid-area: Item-1;
+  }
+  .Input2 {
+    grid-area: Item-2;
+  }
+  .Input3 {
+    grid-area: Item-3;
+  }
+  .Input4 {
+    grid-area: Item-4;
+  }
+  .Input5 {
+    grid-area: Item-5;
+  }
+  .Input6 {
+    grid-area: Item-6;
   }
   /* Footer */
   footer {

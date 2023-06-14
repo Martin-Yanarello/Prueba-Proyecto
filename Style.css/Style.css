@@ -197,11 +197,22 @@ body {
 /* Productos */
 .Grid-productos {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  text-align: center;
+  list-style: none;
 }
 
 .pagination {
   justify-content: center;
+}
+
+.Link-productos {
+  color: white;
+  text-decoration: none;
+}
+.Link-productos:hover {
+  text-decoration: underline;
 }
 
 /* Footer */

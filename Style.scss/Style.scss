@@ -204,12 +204,18 @@
 
     .Grid-productos{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
+        text-align: center;
+        list-style: none;
     }
+
     .pagination{
         justify-content: center;
     }
-
+    .Link-productos{
+        @include Link-Style;
+    }
 /* Footer */
 
     footer {
